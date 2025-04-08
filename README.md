@@ -19,5 +19,8 @@
 ## Getting Started
   - Setup and install Java, Maven, MySQL and execute the provided SQL scripts
   - Create a Twilio account using the url https://www.twilio.com/en-us, get "Account SID", "Auth token" and create a messaging serivce in Twilio and get "service id" and update them in application.properties file.
-  - Create an SMTP server through cloud provider (ex: amazon ses) or any mail providers, get the login credentials and update these properties "spring.mail.host","spring.mail.username","spring.mail.password" provided in application.properties file.
+  - Create an SMTP server through cloud provider (ex: amazon ses) or any mail providers, get the login credentials and update the below properties in application.properties file.
+    - "spring.mail.host" - SMTP Server
+    - "spring.mail.username" - SMTP user name
+    - "spring.mail.password" - SMTP password
   - Run the application and execute the API's
